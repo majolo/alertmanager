@@ -435,7 +435,11 @@ token_url: <string>
 
 # Optional parameters to append to the token URL.
 endpoint_params:
-  [ <string>: <string> ... ]
+  [ <string>: <string> ... 
+  
+# Configures the token request's TLS settings.
+tls_config:
+  [ <tls_config> ]    
 ```
 
 ## `<tls_config>`
